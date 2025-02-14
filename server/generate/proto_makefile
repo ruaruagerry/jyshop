@@ -1,3 +1,4 @@
+# todo suming 修改此处的结构逻辑
 NAME := caoguo
 
 BUILDSHELLFILE :=`ls ../apidoc/proto/$(NAME)/*.proto | cut -d'/' -f5`

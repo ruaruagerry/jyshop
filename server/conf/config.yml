@@ -3,7 +3,7 @@ base:
     service_name: "caoguo" # 服务名
     service_displayname: "caoguo" # 服务显示名
     sercice_desc: "caoguo" # 描述
-    is_dev: true
+    is_dev: false
 mysql_info:
     port : 3306 # 端口号
     username : root # 用户名
@@ -11,7 +11,7 @@ mysql_info:
     password : 123456 # 密码
     # host : localhost
     # password : qwer
-    database : caoguo_dev # 数据库名
+    database : jy_shop # 数据库名
 kdniao: # 快递鸟配置
     business_id : 1317777
     app_key : 111111-2222-3333-4444-555555555

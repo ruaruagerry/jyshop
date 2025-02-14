@@ -59,11 +59,13 @@
 
 <script>
 import { validUsername } from '@/utils/validate'
-import SocialSign from './components/SocialSignin'
+// import SocialSign from './components/SocialSignin'
 
 export default {
   name: 'Login',
-  components: { SocialSign },
+  components: {
+    // SocialSign
+  },
   data() {
     const validateUsername = (rule, value, callback) => {
       if (!validUsername(value)) {
@@ -99,7 +101,7 @@ export default {
   watch: {
     $route: {
       handler: function(route) {
-         console.log(route);
+        console.log(route)
         const query = route.query
         if (query) {
           this.redirect = query.redirect

@@ -1,9 +1,10 @@
+# 加载子模块：git submodule update --init --recursive 
 [submodule "ginrpc"]
 	path = ginrpc
-	url = https://github.com/xxjwxc/ginrpc
+	url = https://github.com/ruaruagerry/ginrpc.git
 [submodule "public"]
 	path = public
-	url = https://github.com/xxjwxc/public
+	url = https://github.com/ruaruagerry/go-public.git
 [submodule "goplugins"]
 	path = goplugins
 	url = https://github.com/gmsec/goplugins
